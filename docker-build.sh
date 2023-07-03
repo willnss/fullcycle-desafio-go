@@ -1,1 +1,1 @@
-docker buildx build -t willns/fullcycle --push --platform linux/amd64,linux/arm64 .
+docker build -t willns/fullcycle .
