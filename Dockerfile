@@ -7,7 +7,7 @@ COPY go.mod ./
 COPY . .
 RUN GOOS=linux GOARCH=amd64 go build -v -ldflags="-w -s" -o /usr/local/bin/app ./...
 
-FROM debian:stable
+FROM scratch
 
 WORKDIR /usr/src/app
 
