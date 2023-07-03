@@ -1,3 +1,5 @@
+# Falta ajustar tamanho da imagem
+
 ## Fullcycle - Desafio Go
 
 Para executar a imagem Docker execute:
